@@ -1,0 +1,22 @@
+{
+  "Meta": {
+    "DataModel": "",
+    "EventType": "",
+    "EventDateTime": "",
+    "Test": true
+  },
+  "Patient": {
+    "Identifiers": [
+      {
+        "ID": "",
+        "IDType": "MR"
+      }
+    ],
+    "Demographics": {
+    },
+    "Notes": []
+  },
+  "Visit": {
+    "PatientClass": ""
+  }
+}
