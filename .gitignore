@@ -1,0 +1,9 @@
+# Mac Development
+.DS_Store
+
+.idea
+node_modules
+npm-debug.log
+output.log
+
+*.iml
