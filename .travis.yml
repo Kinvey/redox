@@ -4,6 +4,4 @@ node_js:
 install:
 - npm install kinvey-dlc-cli
 after_success:
-- pwd
-- ls -la
-- ./kinvey-cli
+- kinvey-dlc-cli deploy -e mjsalinger+ci@kinvey.com -p k1nv3y
