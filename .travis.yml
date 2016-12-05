@@ -1,8 +1,11 @@
 language: node_js
 node_js:
 - '6'
+before_install:
+- npm install -g kinvey-cli
+script: kinvey
 install:
 - npm install
 - npm install -g kinvey-cli
 after_success:
-- kinvey-cli deploy -e mjsalinger+ci@kinvey.com -p k1nv3y
+- kinvey deploy -e mjsalinger+ci@kinvey.com -p k1nv3y
