@@ -3,5 +3,6 @@ node_js:
 - '6'
 install:
 - npm install
+- npm install -g kinvey-cli
 after_success:
 - kinvey-cli deploy -e mjsalinger+ci@kinvey.com -p k1nv3y
