@@ -6,6 +6,5 @@ before_install:
 script: kinvey
 install:
 - npm install
-- npm install -g kinvey-cli
 after_success:
-- kinvey deploy -e mjsalinger+ci@kinvey.com -p k1nv3y
+- deploy.sh
