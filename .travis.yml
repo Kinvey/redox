@@ -7,4 +7,4 @@ script: kinvey
 install:
 - npm install
 after_success:
-- deploy.sh
+- ./deploy.sh
