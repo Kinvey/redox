@@ -1,16 +1,20 @@
 {
   "name": "redoxpaas",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "kinvey-backend-sdk": "^0.4.1",
-    "moment": "^2.13.0",
-    "request": "^2.72.0"
+    "kinvey-flex-sdk": "1.0.1",
+    "moment": "2.13.0",
+    "request": "2.72.0"
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "kinvey-cli": "*"
   },
   "scripts": {
     "start": "node backend/index.js",
